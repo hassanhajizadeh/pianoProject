@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background:radial-gradient(black , rgb(117, 3, 3));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#piano{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 170px;
+    width: 800px;
+    background:linear-gradient(rgba(255, 51, 0, 0.5), rgba(255, 69, 0, 0.3)),url(wood.jpg);
+    background-position: center;
+    padding: 20px 15px;
+    border-radius: 1rem;
+    box-shadow: inset 0px 0px 10px black;  
+    transition: 1s ease rotate;
+}
+#keys{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+.white-key{
+    position: relative;
+    width: 20px;
+    border: 1px solid black;
+}
+
+
+.black-key{
+    position: absolute;
+    width: 10px;
+    height: 70%;
+    top:0;
+    right: -5px;
+    background: black;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+@media only screen and (max-width:800px) {
+    #piano{
+        width: 600px;
+        height: 130px;
+    }
+    #keys{
+        height: 70px;
+    }
+    .white-key{
+        width: 11px;
+    }
+    .black-key{
+        width: 6px;
+        right:-4px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    #piano{
+        rotate: 90deg;
+        width: 550px;
+        height: 100px;
+    }
+    #keys{
+        height: 60px;
+    }
+    .white-key{
+        width: 10px;
+    }
+    .black-key{
+        width: 4px;
+        right:-3px;
+    }
+}
