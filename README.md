@@ -1,4 +1,4 @@
-## Beautiful Simple Piano App Containing All keys .
+## A beautifully designed, fully responsive, and simple piano app featuring all 88 keys
 (88keys = 52 white keys + 36 black keys)
 
 Created Using HTML , CSS , JS
