@@ -3,9 +3,11 @@
 
 Created Using HTML , CSS , JS
 
-### 🎵 Piano Key Frequencies  
-The frequencies of the piano keys used in this project were sourced from:  
-[Wikipedia - Piano Key Frequencies](https://en.wikipedia.org/wiki/Piano_key_frequencies)
+![desktop demo image of app](<demoImg1.png>)
+![moblie demo image of app](<demoImg2.png>)
 
-### 🎹 Why Keyboard Keys Are Not Used
+### 🎵 Audio Source
+The piano sounds in this app are sourced from the [3D Piano Player](https://github.com/reality3d/3d-piano-player) repository.
+
+### 🎹 Why computer Keyboard Keys Are Not Used
 This project does not include support for playing piano notes using computer keyboard keys because standard keyboards do not have enough keys to match a full piano layout. Instead, clicking on the on-screen keys is required to play sounds.
