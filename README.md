@@ -4,7 +4,7 @@
 
 Created Using HTML, CSS, JS
 
-### 👉 **[🎹 Live Demo](https://hassnahajizadeh-piano-project.netlify.app)**
+### 👉 **[🎹 Live Demo](https://hassanhajizadeh-piano-project.netlify.app/)**
 
 ---
 
