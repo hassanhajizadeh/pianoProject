@@ -70,19 +70,20 @@ body{
 
 @media only screen and (max-width:600px){
     #piano{
-        rotate: 90deg;
-        width: 100vh;
+        transform: rotate(90deg) translateX(-25px);
+        transform-origin: center;
+        width: 80vh;
         min-height: 200px;
         max-height: 400px;
     }
     #keys{
         height: calc(100% - 40px);
+        cursor: pointer;
     }
     .white-key{
-        width: 14px;
+        width: calc(100%/50);
     }
     .black-key{
-        width: 4px;
         right:-3px;
     }
 }
