@@ -71,14 +71,15 @@ body{
 @media only screen and (max-width:600px){
     #piano{
         rotate: 90deg;
-        width: 550px;
-        height: 100px;
+        width: 100vh;
+        min-height: 200px;
+        max-height: 400px;
     }
     #keys{
-        height: 60px;
+        height: calc(100% - 40px);
     }
     .white-key{
-        width: 10px;
+        width: 14px;
     }
     .black-key{
         width: 4px;
